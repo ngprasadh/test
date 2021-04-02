@@ -1,0 +1,99 @@
+<html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container 
+{
+  position: relative;
+  width: 100%;
+  
+}
+.container img 
+{
+  width: 100%;
+  height: auto;
+}
+.container .btn1 
+{
+  position: absolute;
+  top: 30.0%;
+  left: 64.0%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+  padding: 10px 30px;  
+  background-color: transparent;   
+  cursor: pointer;
+  background-repeat:no-repeat;
+  border: none; 
+  cursor: pointer; 
+  outline: none;
+  overflow: hidden; 
+ 
+}
+.container .btn2 
+{
+  position: absolute;
+  top: 56.50%;
+  left: 66.0%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+  padding: 10px 30px;    
+  background-color: transparent;   
+  cursor: pointer;
+  background-repeat:no-repeat;
+  border: none; 
+  cursor: pointer; 
+  outline: none;
+  overflow: hidden; 
+   
+}
+.container .btn3 
+{
+  position: absolute;
+  top: 17.50%;
+  left: 58.0%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+  padding: 10px 30px; 
+    background-color: transparent;   
+  cursor: pointer;
+  background-repeat:no-repeat;
+  border: none; 
+  cursor: pointer; 
+  outline: none;
+  overflow: hidden;
+ 
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+  <img src="m1.png" id="myImg" alt="Snow" style="width:100%">
+  <button class="btn1" onclick="changeImg1()">
+  </button><button class="btn2" onclick="changeImg2()">
+  </button><button class="btn3" onclick="changeImg3()">  
+  <script>
+        function changeImg1() 
+	{               
+	    var image = document.getElementById('myImg');
+            image.src = "m2.png";    
+	 }
+	function changeImg2() 
+	{
+            var image = document.getElementById('myImg');
+            image.src = "m3.png";          
+        }
+	function changeImg3() 
+	{
+                     
+		self.location = "mainpg.htm";
+	           
+        }
+	
+    </script>
+</button></div>
+
+</body></html>
